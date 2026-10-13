@@ -101,6 +101,7 @@ cc_library_static {
 
 cc_binary {
     name: "bzip2",
+    recovery_available: true,
     host_supported: true,
 
     cflags: [
